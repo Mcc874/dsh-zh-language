@@ -3,3 +3,8 @@ node_modules/
 .DS_Store
 Thumbs.db
 *.tgz
+*.tmp
+
+# 防御：临时凭据文件绝不能被提交（Windows 上绝对路径可能被解析成相对路径）
+Users*AppData*
+*gitcred*
