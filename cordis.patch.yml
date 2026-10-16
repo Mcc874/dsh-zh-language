@@ -1,0 +1,5 @@
+# 给系统提示词追加一个全局段落，要求推理与回复使用简体中文。
+- insert:
+    - id: zh-language
+      name: '@local/dsh-zh-language'
+      config: {}

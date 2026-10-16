@@ -1,0 +1,4 @@
+{
+  "title": "Simplified Chinese Language Constraint",
+  "description": "Appends a language section to the end of the system prompt requiring internal reasoning and final replies in Simplified Chinese."
+}
