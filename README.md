@@ -12,7 +12,7 @@
 
 | 字段 | 填什么 |
 |---|---|
-| 插件来源 | `github:YOUR_GITHUB_USERNAME/dsh-zh-language` |
+| 插件来源 | `github:Mcc874/dsh-zh-language` |
 | 高级选项 | ✅ 勾选「这是来自本地、Git 或其他外部来源的高级插件」 |
 
 确认该来源为**全权访问**（外部代码请自行审计）→ 安装 → 重启 DSH。
@@ -20,7 +20,7 @@
 ### 方式二：CLI（非 desktop profile）
 
 ```sh
-dsh plugin --profile <name> add github:YOUR_GITHUB_USERNAME/dsh-zh-language
+dsh plugin --profile <name> add github:Mcc874/dsh-zh-language
 ```
 
 安装后重启 DSH，然后**新开一个会话**验证。
